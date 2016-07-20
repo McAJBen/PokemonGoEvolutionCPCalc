@@ -6,9 +6,9 @@ This program gives a range your evolved Pokemon's CP will be after evolving it.
 
 # Evolution Calculation
 ```
-function( currentCP, currentHP ) {
+function( currentCP, currentHP, stardust) {
     List validPostEvolutionCPs
-    for (all level ranges [0, 79] or based on stardust amounts) {
+    for (all level ranges [0, 79] or based on stardust) {
         calculate CpMultiplier
         for (all stamina ranges [0, 15]) {
             calculate HP
